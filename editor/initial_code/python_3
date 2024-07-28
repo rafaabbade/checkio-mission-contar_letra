@@ -1,1 +1,13 @@
-{{CODIGO INICIAL}}
+def contar_letra(lista_strings, caractere):
+    # Seu código aqui
+    return None
+
+print("Example:")
+print(contar_letra(["banana", "maçã", "laranja"], "a"))
+
+# As funções assert são utilizadas para verificar se o resultado da função chamada é o esperado
+assert contar_letra(["banana", "maçã", "laranja"], "a") == [3, 1, 3]
+assert contar_letra(["teste", "exemplo"], "e") == [2, 2]
+
+print("Seu código passou pelos testes, clique em Check para avançar!")
+
